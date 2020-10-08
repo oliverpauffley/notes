@@ -1,0 +1,1 @@
+Secrets are a way of keeping [[Kubernetes]] information secrets seperate from the application and encoded.
