@@ -8,6 +8,15 @@
     "backlink": true,
     "command-palette": true,
     "markdown-importer": true,
-    "word-count": true
-  }
+    "word-count": true,
+    "custom-css": true,
+    "open-with-default-app": true
+  },
+  "alwaysUpdateLinks": true,
+  "spellcheck": true,
+  "vimMode": true,
+  "spellcheckDictionary": [
+    "kafka"
+  ],
+  "newFileLocation": "current"
 }

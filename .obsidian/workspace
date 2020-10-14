@@ -8,8 +8,11 @@
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Kafka/Consumer.md",
+            "mode": "preview"
+          }
         }
       }
     ],
@@ -45,7 +48,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
     "id": "8d691be7f7032057",
@@ -60,7 +63,9 @@
             "type": "leaf",
             "state": {
               "type": "backlink",
-              "state": {}
+              "state": {
+                "file": "Kafka/Consumer.md"
+              }
             }
           }
         ]
@@ -70,5 +75,16 @@
     "width": 300,
     "collapsed": true
   },
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Kafka/Consumer.md",
+    "Kafka/Consumer Groups.png",
+    "Kafka/Events.md",
+    "Kafka/Kafka.md",
+    "Kafka/Kafka Simple Example.png",
+    "Kafka/Kafka Topic.png",
+    "Budget Plan Calculation.md",
+    "Go/Concurrency-in-Go_Tools-and-Techniques-for-Developers.pdf",
+    "Tmux.md",
+    "Untitled.md"
+  ]
 }
