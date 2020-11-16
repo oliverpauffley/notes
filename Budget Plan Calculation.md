@@ -15,14 +15,46 @@
 
 ### Calculation
 ```sql
-select
- cus.custaccountno,
- gus.guddate,
- gas.glastbilledgmu,
- gas.gaqkwh,
- gas.gaqkwhregs 
-from customer as cus
-left join gas on cus.custaccountno = gas.gcustaccountno 
-left join gusedom as gus on gus.guduniquesys = gas.glastbilledgmu 
-where cus.custaccountno = '3016818';
+select distinct on (cli.clinumber)
+	cus.custaccountno as cust_account_no,
+	cli.clinumber as cli_number,
+	gas.greference as g_reference1,
+	cli.clibudgetusage as usage,
+	cli.clibudgettotalpd as total_paid,
+	gus.guddate as last_billed_date,
+	gas.gaqkwh,
+	gas.gaqkwhregs,
+	pmd.pmdgasppkwh as gas_ppkwh,
+	pmd.pmdgdppkwh as gd_ppkwh,
+	pmd.pmdstorageppkwh as storage_ppkwh ,
+	pmd.pmde7dayppkwh as de_7_day_ppkwh,
+	pmd.pmde7nightppkwh as de_7_night_ppkwh,
+	pmd.pmdgasdaily as gas_daily ,
+	pmd.pmdgddaily as gd_daily ,
+	pmd.pmde7daily as de_7_daily,
+	pes.pmdateto,
+	cus.custservicelvl as cust_service_level,
+	cli.cliservicelvl as cli_service_level,
+	cli.clilivedate as live_date,
+	cli.clibudgetstart as budget_start,
+	cli.clicpsdate as cps_date,
+	cli.clibudgetamount as budget_amount
+from
+	customer as cus
+join cli on
+	cus."_eq_logic_id" = cli."_eq_parent_logic_id" and cli.cliservicelvl like '%OPB%'
+join gas on
+	cus.custaccountno = gas.gcustaccountno
+join gusedom as gus on
+	gus.guduniquesys = gas.glastbilledgmu
+join pesmast as pes on
+	gus.gudtariff = pes.pmtariff
+join pmdetail as pmd on
+	pes."_eq_logic_id" = pmd."_eq_parent_logic_id" and gas.gregion = pmd.pmdregion 
+where
+	cus.custaccountno = '3142263'
+order by
+	cli.clinumber,
+	pes.pmdateto ;
+
 ```

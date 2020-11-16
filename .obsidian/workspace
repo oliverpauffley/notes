@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kafka/Consumer.md",
+            "file": "Kafka/Topics.md",
             "mode": "preview"
           }
         }
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/Consumer.md"
+                "file": "Kafka/Topics.md"
               }
             }
           }
@@ -76,15 +76,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Kafka/Topics.md",
+    "Kafka/Producers.md",
     "Kafka/Consumer.md",
+    "Kafka/Kafka Guarantees.md",
+    "Kafka/Connectors.md",
     "Kafka/Consumer Groups.png",
-    "Kafka/Events.md",
-    "Kafka/Kafka.md",
     "Kafka/Kafka Simple Example.png",
-    "Kafka/Kafka Topic.png",
-    "Budget Plan Calculation.md",
-    "Go/Concurrency-in-Go_Tools-and-Techniques-for-Developers.pdf",
-    "Tmux.md",
-    "Untitled.md"
+    "Kafka/Kafka Simple Example 1.png",
+    "Kafka/Kafka.md",
+    "Kafka/Kafka Streams.md"
   ]
 }

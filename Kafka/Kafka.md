@@ -3,11 +3,14 @@ Kafka is a messaging system designed to handle events in a hugely scaleable way.
 
 Kafka will ensure events are ordered.
 
+![[concept_diagram.png]]
+
 ## [[Events]]
 ## [[Producers]]
-## [[Consumers]]
+## [[Consumer]]
 ## [[Topics]]
 ## [[Brokers]]
+## [[Zookeeper]]
 
 ![[Kafka Simple Example.png]]
 
