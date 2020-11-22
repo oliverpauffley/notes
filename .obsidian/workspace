@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kafka/Topics.md",
-            "mode": "preview"
+            "file": "Go/Concurrency/Untitled.md",
+            "mode": "source"
           }
         }
       }
@@ -40,7 +40,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -64,7 +69,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kafka/Topics.md"
+                "file": "Go/Concurrency/Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -76,6 +86,7 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Go/Concurrency/Untitled.md",
     "Kafka/Topics.md",
     "Kafka/Producers.md",
     "Kafka/Consumer.md",
@@ -84,7 +95,6 @@
     "Kafka/Consumer Groups.png",
     "Kafka/Kafka Simple Example.png",
     "Kafka/Kafka Simple Example 1.png",
-    "Kafka/Kafka.md",
-    "Kafka/Kafka Streams.md"
+    "Kafka/Kafka.md"
   ]
 }
