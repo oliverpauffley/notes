@@ -42,7 +42,7 @@ if data == 0 {
 - The goroutine, which is incrementing the *data* variable.
 - The *if* statement, which checks whether the value of data is 0.
 - Our *fmt.Printf*, which retrieves the value of data for output.
-Go has methods for protecting these critical sections. One example is [[Sync.Mutex]] that allows your to **lock** and **unlock** access to shared memory.
+Go has methods for protecting these critical sections. One example is [[Sync#Mutex]] that allows your to **lock** and **unlock** access to shared memory.
 
 ## Deadlocks, Livelocks and Starvation
 Even when your program is logically correct there can still be issues.

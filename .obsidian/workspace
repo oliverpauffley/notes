@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "b80cbf69ee6d98a7",
+        "id": "3606498adbb251a9",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Go/Concurrency/Untitled.md",
+            "file": "Rust/Ownership/Clone.md",
             "mode": "source"
           }
         }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.5
+    "width": 230
   },
   "right": {
     "id": "8d691be7f7032057",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Go/Concurrency/Untitled.md",
+                "file": "Rust/Ownership/Clone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,15 +86,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Go/Concurrency/Untitled.md",
-    "Kafka/Topics.md",
-    "Kafka/Producers.md",
-    "Kafka/Consumer.md",
-    "Kafka/Kafka Guarantees.md",
-    "Kafka/Connectors.md",
-    "Kafka/Consumer Groups.png",
-    "Kafka/Kafka Simple Example.png",
-    "Kafka/Kafka Simple Example 1.png",
-    "Kafka/Kafka.md"
+    "Rust/Ownership/Clone.md",
+    "Rust/Generics/Conditionally Implement Methods.md",
+    "Rust/Generics/Traits.md",
+    "Rust/Generics/Returning Types that Implement Traits.md",
+    "Rust/Generics/Defining a Trait.md",
+    "UW/AWS Roles.md",
+    "Rust/Generics/Traits as Parameters.md",
+    "Rust/Generics/Implementating a Trait on a Type.md",
+    "Rust/Generics/Generics.md",
+    "Rust/Generics/Generic and Performance.md"
   ]
 }

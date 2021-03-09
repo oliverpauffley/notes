@@ -1,0 +1,2 @@
+# Generics and Performance
+You might think that using generics would slow down the code but Rust avoids this be using *monomorphization* where generic code is converted into concrete types by the compiler. 
